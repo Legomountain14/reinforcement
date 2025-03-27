@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "reinforcement:block/reinforced_stone_bricks"
+    }
+  }
+}

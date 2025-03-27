@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "reinforcement:block/reinforced_stone_bricks",
+    "up": "reinforcement:block/reinforced_stone_bricks",
+    "north": "reinforcement:block/reinforced_stone_bricks",
+    "east": "reinforcement:block/reinforced_stone_bricks",
+    "south": "reinforcement:block/reinforced_stone_bricks",
+    "west": "reinforcement:block/reinforced_stone_bricks",
+    "particle": "reinforcement:block/reinforced_stone_bricks"
+  },
+  "render_type": "solid"
+}

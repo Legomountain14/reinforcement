@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "reinforcement:block/reinforced_glowstone",
+    "up": "reinforcement:block/reinforced_glowstone",
+    "north": "reinforcement:block/reinforced_glowstone",
+    "east": "reinforcement:block/reinforced_glowstone",
+    "south": "reinforcement:block/reinforced_glowstone",
+    "west": "reinforcement:block/reinforced_glowstone",
+    "particle": "reinforcement:block/reinforced_glowstone"
+  },
+  "render_type": "solid"
+}

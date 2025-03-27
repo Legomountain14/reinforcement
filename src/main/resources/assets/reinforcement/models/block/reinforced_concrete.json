@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "reinforcement:block/reinforced_concrete",
+    "up": "reinforcement:block/reinforced_concrete",
+    "north": "reinforcement:block/reinforced_concrete",
+    "east": "reinforcement:block/reinforced_concrete",
+    "south": "reinforcement:block/reinforced_concrete",
+    "west": "reinforcement:block/reinforced_concrete",
+    "particle": "reinforcement:block/reinforced_concrete"
+  },
+  "render_type": "solid"
+}

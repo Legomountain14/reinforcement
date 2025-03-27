@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "reinforcement:item/reinforced_iron_door"
+  },
+  "render_type": "translucent"
+}

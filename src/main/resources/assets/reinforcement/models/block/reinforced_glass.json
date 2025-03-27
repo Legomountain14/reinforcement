@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "reinforcement:block/reinforced_glass",
+    "particle": "reinforcement:block/reinforced_glass"
+  },
+  "render_type": "cutout"
+}

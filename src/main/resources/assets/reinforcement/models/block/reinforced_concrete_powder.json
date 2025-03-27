@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "reinforcement:block/reinforced_concrete_powder",
+    "up": "reinforcement:block/reinforced_concrete_powder",
+    "north": "reinforcement:block/reinforced_concrete_powder",
+    "east": "reinforcement:block/reinforced_concrete_powder",
+    "south": "reinforcement:block/reinforced_concrete_powder",
+    "west": "reinforcement:block/reinforced_concrete_powder",
+    "particle": "reinforcement:block/reinforced_concrete_powder"
+  },
+  "render_type": "solid"
+}
