@@ -23,3 +23,12 @@ jobs:
 
       - name: Build with Gradle
         run: ./gradlew build
+
+      - name: Upload a Build Artifact
+        uses: actions/upload-artifact@v4.6.2
+        with:
+    # Artifact name
+            # A file, directory or wildcard pattern that describes what to upload
+            path: build/libs/*
+            if-no-files-found: error
+            retention-days: 90
