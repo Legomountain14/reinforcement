@@ -8,5 +8,14 @@
   "block.reinforcement.reinforced_concrete": "Reinforced Concrete",
   "block.reinforcement.reinforced_glass": "Reinforced Glass",
   "block.reinforcement.reinforced_tinted_glass": "Reinforced Tinted Glass",
+  "item.reinforcement.reinforced_glowstone": "Reinforced Glowstone",
+  "item.reinforcement.reinforced_iron_door": "Reinforced Iron Door",
+  "item.reinforcement.reinforced_iron_trapdoor": "Reinforced Iron Trapdoor",
+  "item.reinforced_stone_bricks.reinforced_stone_bricks": "Reinforced Stone Bricks",
+  "item.reinforcement.reinforced_stone_bricks": "Reinforced Stone Bricks",
+  "item.reinforcement.reinforced_concrete_powder": "Reinforced Concrete Powder",
+  "item.reinforcement.reinforced_concrete": "Reinforced Concrete",
+  "item.reinforcement.reinforced_glass": "Reinforced Glass",
+  "item.reinforcement.reinforced_tinted_glass": "Reinforced Tinted Glass",
   "item_group.reinforcement.reinforced_blocks": "Reinforced Blocks"
 }

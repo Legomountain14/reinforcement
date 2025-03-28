@@ -10,8 +10,6 @@ public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(Reinforcement.MOD_ID);
 
 
-    public static final DeferredItem<Item> REINFORCED_STONE_BRICKS = ITEMS.register("reinforced_stone_bricks",
-            () -> new Item(new Item.Properties()));
 
 
     public static void register(IEventBus eventBus) {
