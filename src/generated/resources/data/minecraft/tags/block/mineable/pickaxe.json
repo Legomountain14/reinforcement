@@ -1,0 +1,12 @@
+{
+  "values": [
+    "reinforcement:reinforced_concrete",
+    "reinforcement:reinforced_glowstone",
+    "reinforcement:reinforced_iron_trapdoor",
+    "reinforcement:reinforced_iron_door",
+    "reinforcement:reinforced_stone_bricks",
+    "reinforcement:reinforced_concrete_powder",
+    "reinforcement:reinforced_glass",
+    "reinforcement:reinforced_tinted_glass"
+  ]
+}

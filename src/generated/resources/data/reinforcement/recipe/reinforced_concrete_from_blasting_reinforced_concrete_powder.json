@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:blasting",
+  "category": "blocks",
+  "cookingtime": 100,
+  "experience": 0.1,
+  "group": "reinforcement",
+  "ingredient": {
+    "item": "reinforcement:reinforced_concrete_powder"
+  },
+  "result": {
+    "count": 1,
+    "id": "reinforcement:reinforced_concrete"
+  }
+}

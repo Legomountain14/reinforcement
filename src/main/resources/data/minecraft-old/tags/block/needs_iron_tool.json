@@ -3,6 +3,7 @@
   "values": [
     "reinforcement:reinforced_stone_bricks",
     "reinforcement:reinforced_concrete",
-    "reinforcement:reinforced_glass"
+    "reinforcement:reinforced_glass",
+    "reinforcement:reinforced_tinted_glass"
   ]
 }

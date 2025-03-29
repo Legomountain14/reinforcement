@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "reinforcement:block/reinforced_stone_bricks"
+  }
+}
