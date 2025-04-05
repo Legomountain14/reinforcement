@@ -12,6 +12,8 @@ import org.jetbrains.annotations.NotNull;
 import org.legomountain14.reinforcement.Reinforcement;
 import org.legomountain14.reinforcement.block.ModBlocks;
 import net.minecraft.world.item.crafting.*;
+import org.legomountain14.reinforcement.item.ModItems;
+
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
 
@@ -122,6 +124,24 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('A', ModBlocks.REINFORCED_CONCRETE)
                 .unlockedBy("has_reinforced_concrete", has(ModBlocks.REINFORCED_CONCRETE))
                 .save(recipeOutput);
+
+        // Reinforced Concrete Stairs Recipe
+        stairBuilder(ModBlocks.REINFORCED_CONCRETE_STAIRS.get(), Ingredient.of(ModBlocks.REINFORCED_CONCRETE))
+                .unlockedBy("has_reinforced_concrete", has(ModBlocks.REINFORCED_CONCRETE))
+                .save(recipeOutput);
+
+        // Reinforced Stone Brick Stairs Recipe
+        stairBuilder(ModBlocks.REINFORCED_STONE_BRICK_STAIRS.get(), Ingredient.of(ModBlocks.REINFORCED_STONE_BRICK_STAIRS))
+                .unlockedBy("has_reinforced__stone_bricks", has(ModBlocks.REINFORCED_STONE_BRICKS))
+                .save(recipeOutput);
+
+
+        // Reinforced Concrete Slab Recipe
+        slab(recipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.REINFORCED_CONCRETE_SLAB.get(), ModBlocks.REINFORCED_CONCRETE.get());
+
+
+        // Reinforced Stone Brick Slab Recipe
+        slab(recipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.REINFORCED_STONE_BRICK_SLAB.get(), ModBlocks.REINFORCED_STONE_BRICKS.get());
 
 
 

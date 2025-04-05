@@ -26,7 +26,13 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.REINFORCED_STONE_BRICKS.get())
                 .add(ModBlocks.REINFORCED_CONCRETE_POWDER.get())
                 .add(ModBlocks.REINFORCED_GLASS.get())
-                .add(ModBlocks.REINFORCED_TINTED_GLASS.get());
+                .add(ModBlocks.REINFORCED_TINTED_GLASS.get())
+                .add(ModBlocks.REINFORCED_STONE_BRICK_SLAB.get())
+                .add(ModBlocks.REINFORCED_CONCRETE_SLAB.get())
+                .add(ModBlocks.REINFORCED_CONCRETE_STAIRS.get())
+                .add(ModBlocks.REINFORCED_STONE_BRICK_STAIRS.get())
+                .add(ModBlocks.REINFORCED_BUTTON.get())
+                .add(ModBlocks.REINFORCED_PRESSURE_PLATE.get());
 
         tag(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.REINFORCED_CONCRETE.get())
@@ -36,6 +42,12 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.REINFORCED_STONE_BRICKS.get())
                 .add(ModBlocks.REINFORCED_CONCRETE_POWDER.get())
                 .add(ModBlocks.REINFORCED_GLASS.get())
-                .add(ModBlocks.REINFORCED_TINTED_GLASS.get());
+                .add(ModBlocks.REINFORCED_TINTED_GLASS.get())
+                .add(ModBlocks.REINFORCED_STONE_BRICK_SLAB.get())
+                .add(ModBlocks.REINFORCED_CONCRETE_SLAB.get())
+                .add(ModBlocks.REINFORCED_CONCRETE_STAIRS.get())
+                .add(ModBlocks.REINFORCED_STONE_BRICK_STAIRS.get())
+                .add(ModBlocks.REINFORCED_BUTTON.get())
+                .add(ModBlocks.REINFORCED_PRESSURE_PLATE.get());
     }
 }

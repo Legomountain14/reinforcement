@@ -136,6 +136,38 @@ public class ModBlocks {
                     .noCollission()));
 
 
+    // Reinforced Concrete Stairs
+    public static final DeferredBlock<StairBlock> REINFORCED_CONCRETE_STAIRS = registerBlock("reinforced_concrete_stairs",
+            () -> new StairBlock(ModBlocks.REINFORCED_CONCRETE.get().defaultBlockState(), BlockBehaviour.Properties.of()
+                    .strength(5.0F, 1200.0F)
+                    .requiresCorrectToolForDrops()));
+
+
+    // Reinforced Stone Brick Stairs
+    public static final DeferredBlock<StairBlock> REINFORCED_STONE_BRICK_STAIRS = registerBlock("reinforced_stone_brick_stairs",
+            () -> new StairBlock(ModBlocks.REINFORCED_STONE_BRICKS.get().defaultBlockState(), BlockBehaviour.Properties.of()
+                    .strength(5.0F, 1200.0F)
+                    .requiresCorrectToolForDrops()));
+
+    // Reinforced Concrete Slab
+    public static final DeferredBlock<SlabBlock> REINFORCED_CONCRETE_SLAB = registerBlock("reinforced_concrete_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of()
+                    .strength(5.0F, 1200.0F)
+                    .requiresCorrectToolForDrops()));
+
+    // Reinforced Stone Brick Slab
+    public static final DeferredBlock<SlabBlock> REINFORCED_STONE_BRICK_SLAB = registerBlock("reinforced_stone_brick_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of()
+                    .strength(5.0F, 1200.0F)
+                    .requiresCorrectToolForDrops()));
+
+
+
+
+
+
+
+
     // END BLOCKS
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {

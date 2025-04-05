@@ -27,6 +27,12 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.REINFORCED_TINTED_GLASS.get());
         dropSelf(ModBlocks.REINFORCED_PRESSURE_PLATE.get());
         dropSelf(ModBlocks.REINFORCED_BUTTON.get());
+        dropSelf(ModBlocks.REINFORCED_CONCRETE_STAIRS.get());
+        dropSelf(ModBlocks.REINFORCED_STONE_BRICK_STAIRS.get());
+        add(ModBlocks.REINFORCED_CONCRETE_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.REINFORCED_CONCRETE_SLAB.get()));
+        add(ModBlocks.REINFORCED_STONE_BRICK_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.REINFORCED_STONE_BRICK_SLAB.get()));
         add(ModBlocks.REINFORCED_IRON_DOOR.get(),
                 block -> createDoorTable(ModBlocks.REINFORCED_IRON_DOOR.get()));
     }

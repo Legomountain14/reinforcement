@@ -7,6 +7,12 @@
     "reinforcement:reinforced_stone_bricks",
     "reinforcement:reinforced_concrete_powder",
     "reinforcement:reinforced_glass",
-    "reinforcement:reinforced_tinted_glass"
+    "reinforcement:reinforced_tinted_glass",
+    "reinforcement:reinforced_stone_brick_slab",
+    "reinforcement:reinforced_concrete_slab",
+    "reinforcement:reinforced_concrete_stairs",
+    "reinforcement:reinforced_stone_brick_stairs",
+    "reinforcement:reinforced_button",
+    "reinforcement:reinforced_pressure_plate"
   ]
 }

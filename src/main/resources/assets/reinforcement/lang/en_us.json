@@ -10,6 +10,11 @@
   "block.reinforcement.reinforced_tinted_glass": "Reinforced Tinted Glass",
   "block.reinforcement.reinforced_pressure_plate": "Reinforced Pressure Plate",
   "block.reinforcement.reinforced_button": "Reinforced Button",
+  "block.reinforcement.reinforced_concrete_slab": "Reinforced Concrete Slab",
+  "block.reinforcement.reinforced_stone_brick_slab": "Reinforced Stone Brick Slab",
+  "block.reinforcement.reinforced_concrete_stairs": "Reinforced Concrete Stairs",
+  "block.reinforcement.reinforced_stone_brick_stairs": "Reinforced Stone Brick Stairs",
+
   "item.reinforcement.reinforced_glowstone": "Reinforced Glowstone",
   "item.reinforcement.reinforced_iron_door": "Reinforced Iron Door",
   "item.reinforcement.reinforced_iron_trapdoor": "Reinforced Iron Trapdoor",
@@ -21,5 +26,9 @@
   "item.reinforcement.reinforced_tinted_glass": "Reinforced Tinted Glass",
   "item.reinforcement.reinforced_pressure_plate": "Reinforced Pressure Plate",
   "item.reinforcement.reinforced_button": "Reinforced Button",
+  "item.reinforcement.reinforced_concrete_slab": "Reinforced Concrete Slab",
+  "item.reinforcement.reinforced_stone_brick_slab": "Reinforced Stone Brick Slab",
+  "item.reinforcement.reinforced_concrete_stairs": "Reinforced Concrete Stairs",
+  "item.reinforcement.reinforced_stone_brick_stairs": "Reinforced Stone Brick Stairs",
   "item_group.reinforcement.reinforced_blocks": "Reinforcement"
 }

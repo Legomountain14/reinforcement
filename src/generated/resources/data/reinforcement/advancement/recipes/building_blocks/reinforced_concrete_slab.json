@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_reinforced_concrete": {
+      "conditions": {
+        "items": [
+          {
+            "items": "reinforcement:reinforced_concrete"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "reinforcement:reinforced_concrete_slab"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_reinforced_concrete"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "reinforcement:reinforced_concrete_slab"
+    ]
+  }
+}

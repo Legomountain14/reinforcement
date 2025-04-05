@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "reinforcement:block/reinforced_stone_bricks",
+    "side": "reinforcement:block/reinforced_stone_bricks",
+    "top": "reinforcement:block/reinforced_stone_bricks"
+  }
+}

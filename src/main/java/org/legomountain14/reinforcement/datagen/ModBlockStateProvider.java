@@ -29,6 +29,13 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItemWithRenderType(ModBlocks.REINFORCED_GLASS, "translucent");
         blockWithItemWithRenderType(ModBlocks.REINFORCED_TINTED_GLASS, "translucent");
 
+
+        stairsBlock(ModBlocks.REINFORCED_CONCRETE_STAIRS.get(), blockTexture(ModBlocks.REINFORCED_CONCRETE.get()));
+        stairsBlock(ModBlocks.REINFORCED_STONE_BRICK_STAIRS.get(), blockTexture(ModBlocks.REINFORCED_STONE_BRICKS.get()));
+
+        slabBlock(ModBlocks.REINFORCED_CONCRETE_SLAB.get(), blockTexture(ModBlocks.REINFORCED_CONCRETE.get()), blockTexture(ModBlocks.REINFORCED_CONCRETE.get()));
+        slabBlock(ModBlocks.REINFORCED_STONE_BRICK_SLAB.get(), blockTexture(ModBlocks.REINFORCED_STONE_BRICKS.get()), blockTexture(ModBlocks.REINFORCED_STONE_BRICKS.get()));
+
         pressurePlateBlock(ModBlocks.REINFORCED_PRESSURE_PLATE.get(), blockTexture(ModBlocks.REINFORCED_CONCRETE.get()));
         buttonBlock(ModBlocks.REINFORCED_BUTTON.get(), blockTexture(ModBlocks.REINFORCED_CONCRETE.get()));
 
@@ -36,6 +43,11 @@ public class ModBlockStateProvider extends BlockStateProvider {
         doorBlockWithRenderType(ModBlocks.REINFORCED_IRON_DOOR.get(), modLoc("block/reinforced_iron_door_bottom"), modLoc("block/reinforced_iron_door_top"), "cutout");
         trapdoorBlockWithRenderType(ModBlocks.REINFORCED_IRON_TRAPDOOR.get(), modLoc("block/reinforced_iron_trapdoor"), true, "cutout");
 
+
+        blockItem(ModBlocks.REINFORCED_CONCRETE_STAIRS);
+        blockItem(ModBlocks.REINFORCED_STONE_BRICK_STAIRS);
+        blockItem(ModBlocks.REINFORCED_CONCRETE_SLAB);
+        blockItem(ModBlocks.REINFORCED_STONE_BRICK_SLAB);
         blockItem(ModBlocks.REINFORCED_PRESSURE_PLATE);
 //        blockItem(ModBlocks.REINFORCED_IRON_DOOR);
         blockItem(ModBlocks.REINFORCED_IRON_TRAPDOOR, "_bottom");

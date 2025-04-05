@@ -31,6 +31,10 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.REINFORCED_IRON_DOOR);
                         output.accept(ModBlocks.REINFORCED_PRESSURE_PLATE);
                         output.accept(ModBlocks.REINFORCED_BUTTON);
+                        output.accept(ModBlocks.REINFORCED_CONCRETE_STAIRS);
+                        output.accept(ModBlocks.REINFORCED_STONE_BRICK_STAIRS);
+                        output.accept(ModBlocks.REINFORCED_CONCRETE_SLAB);
+                        output.accept(ModBlocks.REINFORCED_STONE_BRICK_SLAB);
                     })
                     .build());
 
