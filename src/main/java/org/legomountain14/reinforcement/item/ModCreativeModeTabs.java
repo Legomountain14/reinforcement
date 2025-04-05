@@ -29,6 +29,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.REINFORCED_GLOWSTONE);
                         output.accept(ModBlocks.REINFORCED_IRON_TRAPDOOR);
                         output.accept(ModBlocks.REINFORCED_IRON_DOOR);
+                        output.accept(ModBlocks.REINFORCED_PRESSURE_PLATE);
+                        output.accept(ModBlocks.REINFORCED_BUTTON);
                     })
                     .build());
 

@@ -26,6 +26,7 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.REINFORCED_GLASS.get());
         dropSelf(ModBlocks.REINFORCED_TINTED_GLASS.get());
         dropSelf(ModBlocks.REINFORCED_PRESSURE_PLATE.get());
+        dropSelf(ModBlocks.REINFORCED_BUTTON.get());
         add(ModBlocks.REINFORCED_IRON_DOOR.get(),
                 block -> createDoorTable(ModBlocks.REINFORCED_IRON_DOOR.get()));
     }

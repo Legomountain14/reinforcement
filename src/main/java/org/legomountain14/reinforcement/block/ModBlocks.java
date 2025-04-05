@@ -128,6 +128,13 @@ public class ModBlocks {
             ));
 
 
+    // Reinforced Button
+    public static final DeferredBlock<ButtonBlock> REINFORCED_BUTTON = registerBlock("reinforced_button",
+            () -> new ButtonBlock(BlockSetType.IRON, 15, BlockBehaviour.Properties.of()
+                    .strength(2.5F, 1200.0F)
+                    .requiresCorrectToolForDrops()
+                    .noCollission()));
+
 
     // END BLOCKS
 

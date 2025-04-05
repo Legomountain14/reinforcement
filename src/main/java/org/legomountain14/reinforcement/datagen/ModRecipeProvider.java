@@ -53,7 +53,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .save(recipeOutput);
 
 
-        // Reinforced Glass Recipe
+        // Reinforced Tinted Glass Recipe
         ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.REINFORCED_TINTED_GLASS.get(), 8)
                 .pattern("AAA")
                 .pattern("ABA")
@@ -105,6 +105,22 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('A', Items.STONE_BRICKS)
                 .define('B', Items.IRON_INGOT)
                 .unlockedBy("has_iron", has(Items.IRON_INGOT))
+                .save(recipeOutput);
+
+
+        // Reinforced Pressure Plate Recipe
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.REINFORCED_PRESSURE_PLATE.get(), 4)
+                .pattern("AA")
+                .define('A', ModBlocks.REINFORCED_CONCRETE)
+                .unlockedBy("has_reinforced_concrete", has(ModBlocks.REINFORCED_CONCRETE))
+                .save(recipeOutput);
+
+
+        // Reinforced Button Recipe
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.REINFORCED_BUTTON.get(), 4)
+                .pattern("A")
+                .define('A', ModBlocks.REINFORCED_CONCRETE)
+                .unlockedBy("has_reinforced_concrete", has(ModBlocks.REINFORCED_CONCRETE))
                 .save(recipeOutput);
 
 

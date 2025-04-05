@@ -1,3 +1,6 @@
 {
-  "parent": "reinforcement:block/reinforced_iron_door"
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "reinforcement:item/reinforced_iron_door"
+  }
 }
